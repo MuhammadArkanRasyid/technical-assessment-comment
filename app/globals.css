@@ -75,3 +75,34 @@ body {
   background-color: #45a049; 
   border-color: #45a049;
 }
+
+.p-paginator {
+  background: #fff;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #e5e5e5;
+}
+
+.p-paginator .p-paginator-page {
+  background: transparent;
+  border: none;  
+  color: #333;
+  padding: 0.25rem 0.6rem;
+  margin: 0 0.2rem;
+  border-radius: 4px;
+  transition: background 0.2s; 
+  box-shadow: none;       
+  outline: none;          
+}
+
+.p-paginator .p-paginator-page:hover {
+  background: #e5e5e5;
+}
+
+.p-paginator .p-paginator-page.p-highlight {
+  background: rgba(0, 123, 255, 0.6); 
+  color: #fff;                        
+  border-color: rgba(0, 123, 255, 0.6);
+}
+
