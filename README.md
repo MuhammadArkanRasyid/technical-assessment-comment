@@ -27,6 +27,5 @@ Cara Menjalankan
 
 Clone repository ini:
 git clone https://github.com/MuhammadArkanRasyid/technical-assessment-comment.git
-cd technical-assessment-comment
-git clone https://github.com/MuhammadArkanRasyid/technical-assessment-comment.git
+
 cd technical-assessment-comment
