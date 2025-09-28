@@ -38,7 +38,7 @@ export default function DashboardPage() {
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           placeholder="Search Name"
-          className="p-inputtext-sm w-full md:w-1/3"
+          className="p-inputtext-sm w-full md:w-1/3 p-2"
         />
         <Button
           label="Create Comment"
@@ -63,8 +63,10 @@ export default function DashboardPage() {
           body={(rowData) => (
             <Button
               label="Delete"
+              icon="pi pi-trash"
               className="p-button-danger p-button-sm"
               onClick={() => handleDelete(rowData.id)}
+              text raised
             />
           )}
         />
